@@ -1,0 +1,100 @@
+body{
+    margin:0;
+    padding:0;
+    border: 0;
+   
+}
+
+header .top {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("../images/fondo-1.jpg");
+   
+
+}
+
+
+.information {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.information .logoDaryl {
+    width: 250px;
+    height: 200px;
+    vertical-align: top;
+    
+}
+
+.information .cajatxt {
+    position: relative;
+    
+}
+.information .cajatxt .name {
+    font-weight: bold;
+    margin-bottom: 25px;
+    
+}
+
+.cajatxt2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 5px;
+    
+}
+
+.traspaso {
+    background: url("../images/fondo-2.jpg");
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.content{
+    background: url("../images/fondo-3.jpg");
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.content .danielpart {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    overflow: hidden;
+    align-items: center;
+    align-content: center;
+}
+
+.content .danielpart .daniel {
+    float: left;
+    vertical-align: top;
+    
+    
+}
+.content .danielpart .cajatxt3 {
+    float: left;
+    position: relative;
+    
+    overflow: hidden;
+}
+
+
+p {
+    line-height: 5px;    
+}
