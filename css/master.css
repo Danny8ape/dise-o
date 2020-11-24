@@ -53,10 +53,7 @@ header .top {
 
 .traspaso {
     background: url("../images/fondo-2.jpg");
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
     
 }
 
@@ -75,7 +72,6 @@ header .top {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
     overflow: hidden;
     align-items: center;
     align-content: center;
@@ -84,14 +80,14 @@ header .top {
 .content .danielpart .daniel {
     float: left;
     vertical-align: top;
-    
-    
+    height: 650px;
+    width: 500px;
 }
 .content .danielpart .cajatxt3 {
     float: left;
     position: relative;
-    
     overflow: hidden;
+    top: 100px;
 }
 
 
