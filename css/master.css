@@ -2,7 +2,7 @@ body{
     margin:0;
     padding:0;
     border: 0;
-   
+    font-family: 'Montserrat';
 }
 
 header .top {
@@ -34,6 +34,7 @@ header .top {
 
 .information .cajatxt {
     position: relative;
+    font-family: 'Montserrat';
     
 }
 .information .cajatxt .name {
@@ -48,7 +49,7 @@ header .top {
     align-items: center;
     flex-direction: column;
     line-height: 5px;
-    
+    font-family: 'Montserrat';
 }
 
 .traspaso {
@@ -62,11 +63,12 @@ header .top {
     width: 100%;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
     
     
 }
-
+/*Daniel*/
 .content .danielpart {
     width: 100%;
     display: flex;
@@ -88,8 +90,108 @@ header .top {
     position: relative;
     overflow: hidden;
     top: 100px;
+    text-align: right;
+}
+/*Juan */
+.content .juanpart {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    align-items: center;
+    align-content: center;
 }
 
+.content .juanpart .juan {
+    float: left;
+    vertical-align: top;
+    height: 650px;
+    width: 500px;
+}
+.content .juanpart .cajatxt4 {
+    float: left;
+    position: relative;
+    overflow: hidden;
+    top: 100px;
+    text-align: left;
+}
+
+.thechapter{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*part1*/
+.thechapter .part1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    align-items: center;
+    align-content: center;
+}
+
+/*part2*/
+.thechapter .part2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    align-items: center;
+    align-content: center;
+}
+
+/*part6*/
+.thechapter .part6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    align-items: center;
+    align-content: center;
+}
+
+/*part8*/
+.thechapter .part8{
+    height: 2000px; 
+}
+
+/*part7*/
+.thechapter .part7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    align-items: center;
+    align-content: center;
+    top: 100px;
+}
+
+.thechapter .part7 .juan{
+    float: left;
+    position: relative;
+    overflow: hidden;
+    top: 100px;
+}
+
+/*Botones*/
+.thechapter .botones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    align-items: center;
+    align-content: center;
+}
+
+
+.end .cajatxt6 {
+    text-align: center;
+}
 
 p {
     line-height: 5px;    
